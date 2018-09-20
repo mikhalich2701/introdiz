@@ -1,0 +1,188 @@
+/*Переменные начало
+===================================================*/
+/*Переменные конец
+===================================================*/
+body {
+  font-family: 'muller', sans-serif;
+  font-weight: 400;
+}
+/*Базовые настройки начало
+===================================================*/
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: 'neumannregular', sans-serif;
+}
+h1,
+.h1 {
+  font-size: 52px;
+  text-transform: uppercase;
+}
+h2,
+.h2 {
+  font-size: 32px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 25px;
+}
+h5,
+.h5 {
+  font-size: 12px;
+}
+h6,
+.h6 {
+  font-size: 16px;
+}
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+/*ОБРАТНАЯ СВЯЗЬ
+========================================================================*/
+/*HEADER начало
+========================================================================*/
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  color: #ffffff;
+  z-index: 10;
+}
+.header__feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.header__feedback a {
+  display: block;
+  position: relative;
+  padding: 30px 33px;
+  z-index: 100;
+  background: -webkit-gradient(linear, left top, right top, from(#d3ad74), to(#ecd1a8));
+  background: -webkit-linear-gradient(left, #d3ad74 0%, #ecd1a8 100%);
+  background: -o-linear-gradient(left, #d3ad74 0%, #ecd1a8 100%);
+  background: linear-gradient(to right, #d3ad74 0%, #ecd1a8 100%);
+}
+.header__feedback a:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#d3ad74), to(#d3ad74));
+  background: -webkit-linear-gradient(left, #d3ad74 0%, #d3ad74 100%);
+  background: -o-linear-gradient(left, #d3ad74 0%, #d3ad74 100%);
+  background: linear-gradient(to right, #d3ad74 0%, #d3ad74 100%);
+}
+.header__logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__company {
+  padding-top: 19px;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+}
+.header__info {
+  padding-top: 10px;
+  text-align: right;
+}
+.header__info-phone {
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+}
+.header__info-text {
+  padding-top: 5px;
+  font-size: 10px;
+  opacity: 0.3;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  color: #f8f8f8;
+}
+/*HEADER конец
+===================================================*/
+/*MAIN начало
+===================================================*/
+.design {
+  position: relative;
+}
+.design__text {
+  position: absolute;
+  padding-top: 256px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  height: 0;
+  text-align: center;
+  color: #ffffff;
+  z-index: 100;
+}
+.design__text p {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+}
+.design__text h1 {
+  margin-bottom: 26px;
+  letter-spacing: 2.2px;
+}
+.design__text a {
+  display: inline-block;
+  margin-top: 58px;
+  padding: 27px 31px;
+  background: -webkit-gradient(linear, left top, right top, from(#d3ad74), to(#ecd1a8));
+  background: -webkit-linear-gradient(left, #d3ad74 0%, #ecd1a8 100%);
+  background: -o-linear-gradient(left, #d3ad74 0%, #ecd1a8 100%);
+  background: linear-gradient(to right, #d3ad74 0%, #ecd1a8 100%);
+  color: #1f1f1f;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3.3px;
+}
+.design__text a:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#d3ad74), to(#d3ad74));
+  background: -webkit-linear-gradient(left, #d3ad74 0%, #d3ad74 100%);
+  background: -o-linear-gradient(left, #d3ad74 0%, #d3ad74 100%);
+  background: linear-gradient(to right, #d3ad74 0%, #d3ad74 100%);
+}
+.design__slider {
+  width: 100%;
+}
+/*MAIN конец
+===================================================*/
+/*Базовые настройки конец
+===================================================*/
+/*MEDIA-запросы начало
+===============================================================================*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px!important;
+  }
+}
+/*MEDIA-запросы конец
+===============================================================================*/
